@@ -1,0 +1,157 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+@font-face {
+  font-family: "Zen Kaku Gothic New";
+  src: url("ZenKakuGothicNew-Black.woff2") format("woff2"),
+    url("ZenKakuGothicNew-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zen Kaku Gothic New";
+  src: url("../fonts/ZenKakuGothicNew-Bold.woff2") format("woff2"),
+    url("../fonts/ZenKakuGothicNew-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zen Kaku Gothic New";
+  src: url("../fonts/ZenKakuGothicNew-Regular.woff") format("woff2"),
+    url("../fonts/ZenKakuGothicNew-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zen Kaku Gothic New";
+  src: url("../fonts/ZenKakuGothicNew-Medium.woff2") format("woff2"),
+    url("../fonts/ZenKakuGothicNew-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zen Kaku Gothic New";
+  src: url("../fonts/ZenKakuGothicNew-Light.woff2") format("woff2"),
+    url("../fonts/ZenKakuGothicNew-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CSS rules to specify families */
+body {
+  font-family: "Lato", serif;
+  font-size: 16px;
+}
+#one,
+#two,
+#three,
+#four,
+#five {
+  font-family: "Zen Kaku Gothic New", serif;
+  font-weight: 500;
+  color: rgba(192, 210, 30, 0.589);
+}
+
+.status a {
+  font-family: "Zen Kaku Gothic New", serif;
+  font-weight: 900;
+  font-size: 50px;
+  letter-spacing: 10px;
+  color: rgb(79, 141, 241);
+}
+
+ol li a {
+  font-family: "Zen Kaku Gothic New", serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: rgba(210, 30, 171, 0.589);
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-decoration-color: rgb(255, 80, 226);
+  line-height: 50px;
+}
+
+header {
+  text-shadow: 3px 3px 3px rgba(207, 169, 169, 0.575);
+}
+
+h2 {
+  font-family: "Zen Kaku Gothic New", serif;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.paragraph-subtitle {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(114, 114, 114);
+}
+
+.paragraph-title {
+  font-family: "Source+Serif+Pro", serif;
+  font-weight: 700;
+  color: rgb(114, 114, 114);
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "Zen Kaku Gothic New", serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: rgba(192, 210, 30, 0.589);
+  text-align: center;
+  line-height: 50px;
+}
+
+footer a {
+  font-family: "Zen Kaku Gothic New", serif;
+  font-weight: 900;
+  font-size: 50px;
+  letter-spacing: 10px;
+  color: rgb(79, 141, 241);
+}
+
+/* начинается 2 страница "poster" */
+
+.poster {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-size: 46px;
+  color: #1e212c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 60px;
+}
+
+.poster-text {
+  font-family: "Lato", serif;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* gray/800 */
+
+  color: #424551;
+}
+.poster-text ul {
+  line-height: 40px;
+}
+
+.poster-text h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+}
