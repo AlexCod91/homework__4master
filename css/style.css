@@ -135,8 +135,7 @@ footer a {
 
 .poster-text {
   font-family: "Lato", serif;
-  font-style: 400;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   /* or 26px */
